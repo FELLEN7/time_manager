@@ -1,3 +1,81 @@
-.test{
-  background: green;
+
+
+.container {
+  padding-top: 200px;
+  width: 95vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
+.input_box {
+  position: relative;
+  margin-top: 40px;
+  overflow: hidden;
+  border: 1px solid #7F7F7F;
+  border-radius: 46px;
+  height: 46px;
+  width: 100%;
+  max-width: 540px;
+  min-width: 320px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add_track_btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  margin-right: 4px;
+  border-radius: 50%;
+  border: 0;
+  flex-shrink: 0;
+  outline: none;
+  cursor: pointer;
+  transition: .3s;
+  background: #3FAF6C;
+}
+
+.add_track_btn:hover{
+  box-shadow: 0 0 5px #000;
+}
+
+.add_track_btn::before{
+  content: '';
+  border-width: 7px 12px;
+  position: relative;
+  left: 8px;
+  border-style: solid;
+  border-color: transparent;
+  border-left-color: #fff;
+}
+
+.input_box input[type='text']{
+  outline: none;
+  margin-left: 20px;
+  font-size: 17px;
+  width: 100%;
+  height: 80%;
+  border: 0;
+}
+
+.track_list{
+  width: 100%;
+  margin-top: 30px;
+  max-width: 540px;
+  min-width: 320px;
+}
+
+.track_list li{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #E5E5E5;
+  padding: 20px 0;
+}
+

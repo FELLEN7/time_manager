@@ -1,0 +1,29 @@
+.list_btn{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+.track_info_box{
+  display: flex;
+  align-items: center;
+}
+
+.pause{
+  background-image: url('../../../img/pause_btn.svg');
+}
+
+.play{
+  background-image: url('../../../img/play_btn.svg');
+}
+
+.delete{
+  background-image: url('../../../img/remove_btn.svg');
+}
