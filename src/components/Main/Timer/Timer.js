@@ -4,7 +4,6 @@ import s from './Timer.module.css';
 const Timer = (props) => {
   const [seconds, setSeconds] = useState(props.time);
   const [isActive, setIsActive] = useState(props.active);
-  const [isDeleted, setDeleteStatus] = useState(false);
 
   function toggle() {
     setIsActive(!isActive);

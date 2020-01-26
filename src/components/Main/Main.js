@@ -63,7 +63,6 @@ const Main = (props) => {
     new_timers.forEach(e => {
       if(key === e.key) {
         e.active = active;
-        console.log(active);
       }
     });
     setTimers(new_timers);
@@ -80,7 +79,6 @@ const Main = (props) => {
     let new_timers = timers;
     new_timers.forEach(e => {
       if(key === e.key) {
-        console.log(time);
         e.leaving_time = time;
       }
     });
